@@ -4,8 +4,8 @@
   fetchFromGitHub,
 }:
 stdenvNoCC.mkDerivation {
-  pname = "chicago95-gtk-theme";
-  version = "0-unstable-03-06-2025";
+  pname = "needy_overdose-gtk-theme";
+  version = "0-unstable-04-11-2022";
 
   src = fetchFromGitHub {
     owner = "Natsuhane-Ayari";
