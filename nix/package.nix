@@ -19,9 +19,9 @@ stdenvNoCC.mkDerivation {
   installPhase = ''
     runHook preInstall
 
-    mkdir -p $out/share/themes
+    mkdir -p $out/share/themes/NeedyOverdose
 
-    cp -r $src/* $out/share/themes
+    cp -r $src/* $out/share/themes/NeedyOverdose
 
     runHook postInstall
   '';
