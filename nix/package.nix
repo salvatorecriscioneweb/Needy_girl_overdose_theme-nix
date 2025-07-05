@@ -14,6 +14,8 @@ stdenvNoCC.mkDerivation {
     hash = "sha256-S9uK4t4a8XhfLB69t3kUQuVrYx6AFvurSoOWzM5wN2Q";
   };
 
+  phases = [ "installPhase" ]; # Removes all phases except installPhase
+
   dontBuild = true;
 
   installPhase = ''
